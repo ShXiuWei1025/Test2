@@ -16,7 +16,7 @@ m1=mean(X1')';
 m2=mean(X2')';
 %Sd
 Sd=(m1-m2)*(m1-m2)';
-% Ss
+
 Ss=zeros(m);
 for ii=1:L/2
     x1=X1(:,ii);
